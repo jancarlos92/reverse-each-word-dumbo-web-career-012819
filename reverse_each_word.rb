@@ -1,5 +1,7 @@
 def reverse_each_word(sentence)
-  sentence.split.map.(&:reverse!)
+  
+  sentence.split(' ')
+
 end
 
 
